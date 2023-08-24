@@ -70,9 +70,10 @@ let contrastChecker = () =>{
 
     contrastRef.innerText = contrast.toFixed(2);
     rating.innerText = calcRating(contrast);
-    previewText.style.cssText = `
-    backgroundColor: ${bgColorValue}
-    color: ${textColorValue}`;
+
+    previewText.style.cssText = `background-color : ${bgColorValue};
+    color : ${textColorValue}`
+    
     
 }
 
